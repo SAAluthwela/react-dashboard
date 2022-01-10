@@ -8,7 +8,7 @@ function App() {
       <Topbar />
       <div className="container">
         <Sidebar />
-        <div className="others">others</div>
+        <div className="others">Others</div>
       </div>
     </div>
   );
