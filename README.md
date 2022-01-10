@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## React-dashboard
+
+This is a complete dashboard design implementation
+
+## Technologies
+
+frontend - ReactJS / @material-ui/icons / recharts
+
+backend - NodeJs / Express
+
+## References
+
+https://www.youtube.com/watch?v=aTPkos3LKi8&t=2s
+
 ## Available Scripts
 
 In the project directory, you can run:
