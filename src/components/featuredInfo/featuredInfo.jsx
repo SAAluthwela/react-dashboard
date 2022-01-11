@@ -1,12 +1,11 @@
 import React from "react";
-import "./featuredInfo.css";
+import "./FeaturedInfo.css";
 import { ArrowDownward } from "@material-ui/icons";
 
-export default function featuredInfo() {
+export default function FeaturedInfo() {
   return (
     <div className="featured">
       <div className="featuredItem">
-        feature
         <span className="featuredTitle">Revenue</span>
         <div className="featuredMoneyContainer">
           <span className="featuredMoney">$2,1456</span>
