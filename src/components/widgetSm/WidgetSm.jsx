@@ -9,7 +9,51 @@ export default function widgetSm() {
       <span className="widgetSmTitle">New joined members</span>
       <ul className="widgetSmList">
         <li className="widgetSmListItem">
-          <img src={image} alt="" />
+          <img src={image} alt="" className="widgetSmImg" />
+          <div className="widgetSmUser">
+            <span className="widgetSmUername">Kelly Hsu</span>
+            <span className="widgetSmUserTitle">Software Engineer</span>
+          </div>
+          <button className="widgetSmButton">
+            <Visibility />
+            Display
+          </button>
+        </li>
+        <li className="widgetSmListItem">
+          <img src={image} alt="" className="widgetSmImg" />
+          <div className="widgetSmUser">
+            <span className="widgetSmUername">Kelly Hsu</span>
+            <span className="widgetSmUserTitle">Software Engineer</span>
+          </div>
+          <button className="widgetSmButton">
+            <Visibility />
+            Display
+          </button>
+        </li>
+        <li className="widgetSmListItem">
+          <img src={image} alt="" className="widgetSmImg" />
+          <div className="widgetSmUser">
+            <span className="widgetSmUername">Kelly Hsu</span>
+            <span className="widgetSmUserTitle">Software Engineer</span>
+          </div>
+          <button className="widgetSmButton">
+            <Visibility />
+            Display
+          </button>
+        </li>
+        <li className="widgetSmListItem">
+          <img src={image} alt="" className="widgetSmImg" />
+          <div className="widgetSmUser">
+            <span className="widgetSmUername">Kelly Hsu</span>
+            <span className="widgetSmUserTitle">Software Engineer</span>
+          </div>
+          <button className="widgetSmButton">
+            <Visibility />
+            Display
+          </button>
+        </li>
+        <li className="widgetSmListItem">
+          <img src={image} alt="" className="widgetSmImg" />
           <div className="widgetSmUser">
             <span className="widgetSmUername">Kelly Hsu</span>
             <span className="widgetSmUserTitle">Software Engineer</span>

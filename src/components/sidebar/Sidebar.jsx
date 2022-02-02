@@ -58,11 +58,11 @@ export default function sidebar() {
           </ul>
         </div>
         <div className="sidebarMenu">
-          <h3 classname="sidebarTitle">Staff</h3>
+          <h3 classname="sidebarTitle">Search</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
               <LineStyle className="sidebarIcon" />
-              Home
+              Quick search
             </li>
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
@@ -70,7 +70,7 @@ export default function sidebar() {
             </li>
             <li className="sidebarListItem">
               <TrendingUp className="sidebarIcon" />
-              Sales
+              reports
             </li>
           </ul>
         </div>
