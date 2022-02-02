@@ -2,14 +2,29 @@ import React from "react";
 import "./userList.css";
 import { DataGrid } from "@material-ui/data-grid";
 
+import { DeleteOutline } from "@material-ui/icons";
+import { userRows } from "../../dummyData";
+import { Link } from "react-router-dom";
+
 const columns = [
   { field: "id", headerName: "ID", width: 100 },
-  { field: "Name", headerName: "Name", width: 250 },
+  {
+    field: "user",
+    headerName: "User",
+    width: 250,
+    renderCell: (params) => {
+      return (
+        <div className="userListUser">
+          <img src={params.row.avatar} alt="" className="userListImg" />
+          {params.row.user}
+        </div>
+      );
+    },
+  },
   { field: "email", headerName: "Email", width: 180 },
   {
     field: "login_rate",
     headerName: "Login count",
-    type: "number",
     width: 160,
   },
   {
@@ -19,83 +34,36 @@ const columns = [
     sortable: false,
     width: 200,
   },
-];
+  {
+    field: "action",
+    headerName: "Action",
+    description: "Edit or Delete",
+    sortable: false,
+    width: 180,
+    renderCell: (params) => {
+      return (
+        <React.Fragment>
+          <Link to={"/user/" + params.row.id}>
+            <button className="userListEdit">Edit</button>
+          </Link>
 
-const rows = [
-  {
-    id: 1,
-    email: "Jon@gmail.com",
-    Name: "Jon Eric",
-    login_rate: 35,
-    status: "active",
-  },
-  {
-    id: 2,
-    email: "Hsu@gmail.com",
-    Name: "Kelly Hsu",
-    login_rate: 42,
-    status: "active",
-  },
-  {
-    id: 3,
-    email: "Perera@mail.com",
-    Name: "Kasun Perera",
-    login_rate: 45,
-    status: "inactive",
-  },
-  {
-    id: 4,
-    email: "Stark@gmail.com",
-    Name: "Aravinda de Silva",
-    login_rate: 16,
-    status: "active",
-  },
-  {
-    id: 5,
-    email: "Targaryen@netmail.com",
-    Name: "Ashan Wickramasingha",
-    login_rate: null,
-    status: "active",
-  },
-  {
-    id: 6,
-    email: "Melisandre@unicef.com",
-    Name: "Denny Robert",
-    login_rate: 150,
-    status: "blocked",
-  },
-  {
-    id: 7,
-    email: "Clifford@abclink.com",
-    Name: "Patric Mooray",
-    login_rate: 44,
-    status: "inactive",
-  },
-  {
-    id: 8,
-    email: "Aluthwela@gmail.com",
-    Name: "Roshan Aluthwela",
-    login_rate: 36,
-    status: "active",
-  },
-  {
-    id: 9,
-    email: "Roxie@mailnet.com",
-    Name: "Jenny Lowranz",
-    login_rate: 65,
-    status: "active",
+          <DeleteOutline className="userListDelete" />
+        </React.Fragment>
+      );
+    },
   },
 ];
 
 export default function UserList() {
   return (
-    <div style={{ height: 400, width: "82%" }}>
+    <div style={{ height: 550, width: "100%" }} className="userList">
       <DataGrid
-        rows={rows}
+        rows={userRows}
         columns={columns}
-        pageSize={5}
+        pageSize={8}
         rowsPerPageOptions={[5]}
         checkboxSelection
+        disableSelectionOnClick
       />
     </div>
   );

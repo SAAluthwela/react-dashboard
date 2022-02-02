@@ -1,3 +1,5 @@
+import profileImg from "../src/img/profile.jpg";
+
 export const userData = [
   {
     name: "day 01",
@@ -70,5 +72,80 @@ export const userData = [
     search_hits: 3200,
     pv: 4300,
     amt: 2100,
+  },
+];
+
+export const userRows = [
+  {
+    id: 1,
+    email: "Jon@gmail.com",
+    user: "Jon Eric",
+    login_rate: 35,
+    status: "active",
+    avatar: profileImg,
+  },
+  {
+    id: 2,
+    email: "Hsu@gmail.com",
+    user: "Kelly Hsu",
+    login_rate: 42,
+    status: "active",
+    avatar: profileImg,
+  },
+  {
+    id: 3,
+    email: "Perera@mail.com",
+    user: "Kasun Perera",
+    login_rate: 45,
+    status: "inactive",
+    avatar: profileImg,
+  },
+  {
+    id: 4,
+    email: "Stark@gmail.com",
+    user: "Aravinda de Silva",
+    login_rate: 16,
+    status: "active",
+    avatar: profileImg,
+  },
+  {
+    id: 5,
+    email: "Targaryen@netmail.com",
+    user: "Ashan Wickramasingha",
+    login_rate: null,
+    status: "active",
+    avatar: profileImg,
+  },
+  {
+    id: 6,
+    email: "Melisandre@unicef.com",
+    user: "Denny Robert",
+    login_rate: 150,
+    status: "blocked",
+    avatar: profileImg,
+  },
+  {
+    id: 7,
+    email: "Clifford@abclink.com",
+    user: "Patric Mooray",
+    login_rate: 44,
+    status: "inactive",
+    avatar: profileImg,
+  },
+  {
+    id: 8,
+    email: "Aluthwela@gmail.com",
+    user: "Roshan Aluthwela",
+    login_rate: 36,
+    status: "active",
+    avatar: profileImg,
+  },
+  {
+    id: 9,
+    email: "Roxie@mailnet.com",
+    user: "Jenny Lowranz",
+    login_rate: 65,
+    status: "active",
+    avatar: profileImg,
   },
 ];
