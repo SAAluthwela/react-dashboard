@@ -6,6 +6,7 @@ import "./Home.css";
 
 export default function Home() {
   return (
+    //testing
     <div className="home">
       <FeaturedInfo />
       <Chart />
