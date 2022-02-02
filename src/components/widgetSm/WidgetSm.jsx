@@ -15,8 +15,8 @@ export default function widgetSm() {
             <span className="widgetSmUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility />
-            Display
+            <Visibility className="widgetIcon" />
+            <span className="btnTitle"> Display</span>
           </button>
         </li>
         <li className="widgetSmListItem">
@@ -26,8 +26,8 @@ export default function widgetSm() {
             <span className="widgetSmUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility />
-            Display
+            <Visibility className="widgetIcon" />
+            <span className="btnTitle"> Display</span>
           </button>
         </li>
         <li className="widgetSmListItem">
@@ -37,8 +37,8 @@ export default function widgetSm() {
             <span className="widgetSmUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility />
-            Display
+            <Visibility className="widgetIcon" />
+            <span className="btnTitle"> Display</span>
           </button>
         </li>
         <li className="widgetSmListItem">
@@ -48,8 +48,8 @@ export default function widgetSm() {
             <span className="widgetSmUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility />
-            Display
+            <Visibility className="widgetIcon" />
+            <span className="btnTitle"> Display</span>
           </button>
         </li>
         <li className="widgetSmListItem">
@@ -59,8 +59,8 @@ export default function widgetSm() {
             <span className="widgetSmUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility />
-            Display
+            <Visibility className="widgetIcon" />
+            <span className="btnTitle"> Display</span>
           </button>
         </li>
       </ul>

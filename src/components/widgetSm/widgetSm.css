@@ -7,7 +7,7 @@
 }
 
 .widgetSmTitle {
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 600;
 }
 .widgetSmImg {
@@ -33,4 +33,37 @@
 .widgetSmUser {
   display: flex;
   flex-direction: column;
+}
+
+.widgetSmUsername {
+  font-weight: 800;
+}
+
+.widgetSmUserTitle {
+  font-weight: 300;
+}
+
+.widgetSmButton {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  color: #555;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.widgetSmButton .btnTitle {
+  margin-left: 3px;
+}
+
+.widgetSmButton:hover {
+  background-color: rgb(205, 170, 219);
+}
+
+.widgetIcon {
+  font-size: 16px !important;
+  margin-right: 5px;
 }
