@@ -19,8 +19,8 @@ export default function Home() {
         grid
       />
       <div className="homeWidgets">
-        <WidgetLg />
         <WidgetSm />
+        <WidgetLg />
       </div>
     </div>
   );
