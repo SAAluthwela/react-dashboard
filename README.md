@@ -12,6 +12,8 @@ frontend - ReactJS / @material-ui/icons / recharts
 
 backend - NodeJs / Express
 
+search - Elastic Search
+
 ## References
 
 https://www.youtube.com/watch?v=aTPkos3LKi8&t=2s
