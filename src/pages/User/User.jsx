@@ -7,6 +7,7 @@ import {
   PhoneAndroid,
   MailOutline,
   LocationSearching,
+  Publish,
 } from "@material-ui/icons";
 
 export default function User() {
@@ -51,7 +52,65 @@ export default function User() {
             </div>
           </div>
         </div>
-        <div className="userUpdate"></div>
+        <div className="userUpdate">
+          <span className="userUpdateTitle">Edit</span>
+          <form className="userUpdateForm">
+            <div className="userUpdateLeft">
+              <div className="userUpdateItem">
+                <label>User Name</label>
+                <input
+                  className="userUpdateInput"
+                  type="text"
+                  placeholder="AnnMary99"
+                />
+              </div>
+              <div className="userUpdateItem">
+                <label>Full Name</label>
+                <input
+                  className="userUpdateInput"
+                  type="text"
+                  placeholder="Ann Mary"
+                />
+              </div>
+
+              <div className="userUpdateItem">
+                <label>Address</label>
+                <input
+                  className="userUpdateInput"
+                  type="text"
+                  placeholder="London , UK"
+                />
+              </div>
+
+              <div className="userUpdateItem">
+                <label>Email</label>
+                <input
+                  className="userUpdateInput"
+                  type="text"
+                  placeholder="AnnMary97@gmail.com"
+                />
+              </div>
+
+              <div className="userUpdateItem">
+                <label>Phone</label>
+                <input
+                  className="userUpdateInput"
+                  type="text"
+                  placeholder="+1 2345-4395-78"
+                />
+              </div>
+            </div>
+            <div className="userUpdateRight">
+              <div className="userUpdateUpload">
+                <img src={image} alt="" className="userUpdateImg" />
+                <label htmlFor="file">
+                  <Publish />
+                </label>
+                <input type="file" id="file" style={{ display: "none" }} />
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );
