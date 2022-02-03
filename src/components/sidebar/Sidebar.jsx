@@ -1,6 +1,18 @@
 import React from "react";
 import "./Sidebar.css";
-import { LineStyle, Timeline, TrendingUp } from "@material-ui/icons";
+import {
+  LineStyle,
+  Timeline,
+  TrendingUp,
+  Description,
+  Search,
+  People,
+  WebAsset,
+  ContactSupport,
+  History,
+  AddToQueue,
+  Feedback,
+} from "@material-ui/icons";
 
 export default function sidebar() {
   return (
@@ -27,33 +39,33 @@ export default function sidebar() {
           <h3 classname="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-              <LineStyle className="sidebarIcon" />
-              Home
+              <People className="sidebarIcon" />
+              Users
             </li>
             <li className="sidebarListItem">
-              <Timeline className="sidebarIcon" />
-              Analytics
+              <WebAsset className="sidebarIcon" />
+              Web portal
             </li>
             <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon" />
-              Sales
+              <ContactSupport className="sidebarIcon" />
+              Technical
             </li>
           </ul>
         </div>
         <div className="sidebarMenu">
-          <h3 classname="sidebarTitle">Notifications</h3>
+          <h3 classname="sidebarTitle">Transactions</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-              <LineStyle className="sidebarIcon" />
-              Home
+              <History className="sidebarIcon" />
+              History
             </li>
             <li className="sidebarListItem">
-              <Timeline className="sidebarIcon" />
-              Analytics
+              <AddToQueue className="sidebarIcon" />
+              New Transaction
             </li>
             <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon" />
-              Sales
+              <Feedback className="sidebarIcon" />
+              Feedback
             </li>
           </ul>
         </div>
@@ -61,7 +73,7 @@ export default function sidebar() {
           <h3 classname="sidebarTitle">Search</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-              <LineStyle className="sidebarIcon" />
+              <Search className="sidebarIcon" />
               Quick search
             </li>
             <li className="sidebarListItem">
@@ -69,7 +81,7 @@ export default function sidebar() {
               Analytics
             </li>
             <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon" />
+              <Description className="sidebarIcon" />
               reports
             </li>
           </ul>
