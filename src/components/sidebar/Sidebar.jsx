@@ -48,7 +48,7 @@ export default function sidebar() {
                 Users
               </li>
             </Link>
-            <Link to="/webportal" className="link">
+            <Link to="/products" className="link">
               <li className="sidebarListItem">
                 <WebAsset className="sidebarIcon" />
                 Web portal
