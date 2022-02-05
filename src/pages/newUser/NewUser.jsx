@@ -30,6 +30,31 @@ export default function NewUser() {
           <label>Address</label>
           <input type="text" placeholder="London ,UK"></input>
         </div>
+        <div className="newUserItem">
+          <label>Gender</label>
+          <div className="newUserGender">
+            <input type="radio" value="male" id="male" name="male"></input>
+            <label for="male">Male</label>
+            <input
+              type="radio"
+              value="female"
+              id="female"
+              name="female"
+            ></input>
+            <label for="male">Female</label>
+            <input type="radio" value="other" id="other" name="other"></input>
+            <label for="other">Other</label>
+          </div>
+        </div>
+        <div className="newUserItem">
+          <label>Active</label>
+          <select className="newUserSelect" name="active" id="active">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+
+        <button className="newUserButton">Create</button>
       </form>
     </div>
   );

@@ -13,6 +13,7 @@ import {
   AddToQueue,
   Feedback,
 } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 export default function sidebar() {
   return (
@@ -21,10 +22,13 @@ export default function sidebar() {
         <div className="sidebarMenu">
           <h3 classname="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem active">
-              <LineStyle className="sidebarIcon" />
-              Home
-            </li>
+            <Link to="/" className="link">
+              <li className="sidebarListItem active">
+                <LineStyle className="sidebarIcon" />
+                Home
+              </li>
+            </Link>
+
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
               Analytics
@@ -38,14 +42,19 @@ export default function sidebar() {
         <div className="sidebarMenu">
           <h3 classname="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem">
-              <People className="sidebarIcon" />
-              Users
-            </li>
-            <li className="sidebarListItem">
-              <WebAsset className="sidebarIcon" />
-              Web portal
-            </li>
+            <Link to="/Users" className="link">
+              <li className="sidebarListItem">
+                <People className="sidebarIcon" />
+                Users
+              </li>
+            </Link>
+            <Link to="/webportal" className="link">
+              <li className="sidebarListItem">
+                <WebAsset className="sidebarIcon" />
+                Web portal
+              </li>
+            </Link>
+
             <li className="sidebarListItem">
               <ContactSupport className="sidebarIcon" />
               Technical
