@@ -8,6 +8,7 @@ import User from "./pages/User/User";
 import Search from "./pages/Search/Search";
 import NewUser from "./pages/newUser/NewUser";
 import ProductList from "./pages/productList/ProductList";
+import Product from "./pages/product/Product";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
           <Route path="/search" element={<Search />} />
           <Route path="/newUser" element={<NewUser />} />
           <Route path="/products" element={<ProductList />} />
-          <Route path="/product/:productId" element={<NewUser />} />
+          <Route path="/product/:productId" element={<Product />} />
+          <Route path="/newproducts" element={<NewUser />} />
           <Route path="/newproduct" element={<ProductList />} />
         </Routes>
       </div>

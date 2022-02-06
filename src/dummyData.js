@@ -1,4 +1,5 @@
 import profileImg from "../src/img/profile.jpg";
+import product from "../src/img/product.jpg";
 
 export const userData = [
   {
@@ -147,5 +148,139 @@ export const userRows = [
     login_rate: 65,
     status: "active",
     avatar: profileImg,
+  },
+];
+
+export const productRows = [
+  {
+    id: 1,
+    name: "iphone 13 pro max",
+    price: "$1000",
+    stock: 120,
+    status: "active",
+    img: product,
+  },
+  {
+    id: 2,
+    name: "iphone 13 pro max",
+    price: "$1000",
+    stock: 120,
+    status: "active",
+    img: product,
+  },
+  {
+    id: 3,
+    name: "iphone 13 pro max",
+    price: "$1000",
+    stock: 120,
+    status: "active",
+    img: product,
+  },
+  {
+    id: 4,
+    name: "iphone 13 pro max",
+    price: "$1000",
+    stock: 120,
+    status: "active",
+    img: product,
+  },
+  {
+    id: 5,
+    name: "iphone 13 pro max",
+    price: "$1000",
+    stock: 120,
+    status: "active",
+    img: product,
+  },
+  {
+    id: 6,
+    name: "iphone 13 pro max",
+    price: "$1000",
+    stock: 120,
+    status: "active",
+    img: product,
+  },
+  {
+    id: 7,
+    name: "iphone 13 pro max",
+    price: "$1000",
+    stock: 120,
+    status: "active",
+    img: product,
+  },
+  {
+    id: 8,
+    name: "iphone 13 pro max",
+    price: "$1000",
+    stock: 120,
+    status: "active",
+    img: product,
+  },
+  {
+    id: 9,
+    name: "iphone 13 pro max",
+    price: "$1000",
+    stock: 120,
+    status: "active",
+    img: product,
+  },
+  {
+    id: 10,
+    name: "iphone 13 pro max",
+    price: "$1000",
+    stock: 120,
+    status: "active",
+    img: product,
+  },
+];
+
+export const productData = [
+  {
+    name: "Jan",
+    sales: 4000,
+  },
+  {
+    name: "Feb",
+    sales: 2800,
+  },
+  {
+    name: "Mar",
+    sales: 3500,
+  },
+  {
+    name: "Apr",
+    sales: 5000,
+  },
+  {
+    name: "May",
+    sales: 1200,
+  },
+  {
+    name: "Jun",
+    sales: 3200,
+  },
+  {
+    name: "Jul",
+    sales: 2900,
+  },
+  {
+    name: "Aug",
+    sales: 2500,
+  },
+  {
+    name: "Sep",
+    sales: 5200,
+  },
+  {
+    name: "Oct",
+    sales: 2000,
+  },
+  {
+    name: "Nov",
+    sales: 1000,
+  },
+  {
+    name: "Dec",
+    sales: 4000,
   },
 ];
