@@ -38,3 +38,7 @@
 .productListDelete:hover {
   color: rgb(247, 0, 0);
 }
+
+.link:hover {
+  background-color: inherit;
+}

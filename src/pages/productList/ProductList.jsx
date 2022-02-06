@@ -49,7 +49,7 @@ export default function ProductList() {
       renderCell: (params) => {
         return (
           <React.Fragment>
-            <Link to={"/product/" + params.row.id}>
+            <Link to={"/product/" + params.row.id} className="link">
               <button className="productListEdit">Edit</button>
             </Link>
 
