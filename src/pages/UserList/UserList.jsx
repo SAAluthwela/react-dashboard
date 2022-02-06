@@ -49,7 +49,7 @@ export default function UserList() {
       renderCell: (params) => {
         return (
           <React.Fragment>
-            <Link to={"/user/" + params.row.id}>
+            <Link to={"/user/" + params.row.id} className="link">
               <button className="userListEdit">Edit</button>
             </Link>
 
