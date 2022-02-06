@@ -30,6 +30,11 @@
   position: relative;
   color: #555;
   margin-left: 8px;
+  cursor: pointer;
+}
+
+.topbarIconContainer:hover {
+  color: rgb(180, 177, 177);
 }
 
 .topIconBadge {

@@ -81,10 +81,14 @@ export default function sidebar() {
         <div className="sidebarMenu">
           <h3 classname="sidebarTitle">Search</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem">
-              <Search className="sidebarIcon" />
-              Quick search
-            </li>
+            <Link to="/search" className="link">
+              {" "}
+              <li className="sidebarListItem">
+                <Search className="sidebarIcon" />
+                Quick search
+              </li>
+            </Link>
+
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
               Analytics

@@ -10,6 +10,7 @@ import NewUser from "./pages/newUser/NewUser";
 import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
+import Settings from "./pages/settings/Settings";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/product/:productId" element={<Product />} />
           <Route path="/newproducts" element={<NewUser />} />
           <Route path="/newproduct" element={<NewProduct />} />
+          <Route path="/settings" element={<Settings />} />
         </Routes>
       </div>
     </Router>

@@ -1,17 +1,18 @@
 .search {
   flex: 4;
-  padding: 20px;
+  padding: 100px;
 }
 
 .searchInputs {
-  margin-top: 105px;
+  display: flex;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .search input {
-  background-color: rgb(175, 150, 214);
+  background-color: rgb(192, 171, 224);
   border: 0;
   border-radius: 2px;
   border-top-right-radius: 0px;
@@ -25,9 +26,14 @@
 .searchIcon {
   height: 60px;
   width: 50px;
-  background-color: rgb(209, 190, 190);
+  background-color: rgb(15, 202, 177);
   display: grid;
   place-items: center;
+  cursor: pointer;
+}
+
+.searchIcon:hover {
+  background-color: rgb(71, 131, 184);
 }
 
 input:focus {
