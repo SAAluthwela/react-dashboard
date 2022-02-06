@@ -26,7 +26,9 @@ export default function Topbar() {
             </div>
           </Link>
 
-          <img src={profile} alt="profile" className="topAvatar" />
+          <Link to="/adminprofile" className="link">
+            <img src={profile} alt="profile" className="topAvatar" />
+          </Link>
         </div>
       </div>
     </div>

@@ -11,6 +11,7 @@ import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
 import Settings from "./pages/settings/Settings";
+import AdminProfile from "./pages/adminProfile/AdminProfile";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/newproducts" element={<NewUser />} />
           <Route path="/newproduct" element={<NewProduct />} />
           <Route path="/settings" element={<Settings />} />
+          <Route path="/adminprofile" element={<AdminProfile />} />
         </Routes>
       </div>
     </Router>
